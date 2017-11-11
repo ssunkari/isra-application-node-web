@@ -1,8 +1,8 @@
 {
-  "title": "Agency",
-  "name": "startbootstrap-agency",
+  "title": "ISRA Pvt Limited",
+  "name": "international-student-recruitment-agency",
   "version": "4.0.0-beta.2",
-  "description": "Agency is a one page HTML theme for Bootstrap.",
+  "description": "Provides complete consultancy and counselling services for overseas education.",
   "keywords": [
     "css",
     "sass",
@@ -38,6 +38,7 @@
     "gulp-header": "1.8.9",
     "gulp-rename": "^1.2.2",
     "gulp-sass": "^3.1.0",
-    "gulp-uglify": "3.0.0"
+    "gulp-uglify": "3.0.0",
+    "popper.js": "^1.12.7"
   }
 }
