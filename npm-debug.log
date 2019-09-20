@@ -1,11 +1,10 @@
 0 info it worked if it ends with ok
 1 verbose cli [ '/home/vagrant/.nvm/versions/node/v6.9.0/bin/node',
 1 verbose cli   '/home/vagrant/.nvm/versions/node/v6.9.0/bin/npm',
-1 verbose cli   'run',
-1 verbose cli   'homepage' ]
+1 verbose cli   'start' ]
 2 info using npm@3.10.8
 3 info using node@v6.9.0
-4 verbose stack Error: missing script: homepage
+4 verbose stack Error: missing script: start
 4 verbose stack     at run (/home/vagrant/.nvm/versions/node/v6.9.0/lib/node_modules/npm/lib/run-script.js:151:19)
 4 verbose stack     at /home/vagrant/.nvm/versions/node/v6.9.0/lib/node_modules/npm/lib/run-script.js:61:5
 4 verbose stack     at /home/vagrant/.nvm/versions/node/v6.9.0/lib/node_modules/npm/node_modules/read-package-json/read-json.js:356:5
@@ -18,10 +17,10 @@
 4 verbose stack     at FSReqWrap.readFileAfterClose [as oncomplete] (fs.js:442:12)
 5 verbose cwd /usr/src/dev/personal/isra
 6 error Linux 3.13.0-117-generic
-7 error argv "/home/vagrant/.nvm/versions/node/v6.9.0/bin/node" "/home/vagrant/.nvm/versions/node/v6.9.0/bin/npm" "run" "homepage"
+7 error argv "/home/vagrant/.nvm/versions/node/v6.9.0/bin/node" "/home/vagrant/.nvm/versions/node/v6.9.0/bin/npm" "start"
 8 error node v6.9.0
 9 error npm  v3.10.8
-10 error missing script: homepage
+10 error missing script: start
 11 error If you need help, you may report this error at:
 11 error     <https://github.com/npm/npm/issues>
 12 verbose exit [ 1, true ]

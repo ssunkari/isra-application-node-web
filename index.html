@@ -20,9 +20,12 @@
     <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
-
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.css">
     <!-- Custom styles for this template -->
+    <!------ Include the above in your HEAD tag ---------->
     <link href="css/agency.min.css" rel="stylesheet">
+    <link href="css/infinite-slider.css" rel="stylesheet">
+    <link href="css/thumbnail-gallery.css" rel="stylesheet">
   </head>
 
   <body id="page-top">
@@ -70,137 +73,291 @@
         </div>
       </div>
     </header>
+
+    <!-- Top Slider -->
+    <section id="top-slider">
+      <div class="container">
+          <div class="row">
+            <div class="col-lg-12">
+              <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                  <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                </ol>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img class="d-block w-100" src="./img/slider/slider-1-min.jpg" alt="First slide">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Explore Europe - CYPRUS</h5>
+                      <p>Most aspiring talk from our director at European international agent conference hosted by UCLAN</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img class="d-block w-100" src="./img/slider/slider-2-min.jpg" alt="Second slide">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>A WORLD-CLASS MODERN UNIVERSITY - UCLAN</h5>
+                      <p>Master degree courses with optional professional placement</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img class="d-block w-100" src="./img/slider/slider-3-min.jpg" alt="Third slide">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>University of Sussex - Brighton</h5>
+                      <p>Number of excellence scholarships are available per year for qualifying students</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img class="d-block w-100" src="./img/slider/slider-4-min.jpg" alt="Fourth slide">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Explore London</h5>
+                      <p>We know finding somewhere convenient and cost-effective to live is a top priority for all new students and we give it equal importance. That's why we guarantee all first-year students a residential place.</p>
+                    </div>
+                  </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+                </a>
+              </div>
+            </div>
+          </div>
+      </div>
+    </section>
+
     <!-- Clients -->
-    <section class="py-5" id="services">
+    <section class="bg-light" id="clients">
       <div class="container">
         <div class="row">
-          <div class="col-lg-12 text-center">
-            <h2 class="section-heading text-uppercase">Official Representatives of</h2>
-            <h3 class="section-subheading text-muted"></h3>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-3 col-sm-6">
-            <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
-              <div class="carousel-inner" role="listbox">
-                <div class="carousel-item active">
-               <a href="http://www.uclan.ac.uk/">   <img class="img-fluid d-block mx-auto" src="img/logos/university/UCLan.jpg" alt="University of Central Lancashire-University"></a>
+          <div class="col-lg-12">
+            <div class="container">
+              <div class="text-center">
+                <h2 class="section-subheading text-uppercase">Official Representatives of</h2>
+              </div>
+              <section class="customer-logos slider">
+                <div class="slide">
+                  <a href="http://www.uclan.ac.uk/">
+                    <img class="img-fluid d-block mx-auto" src="img/logos/university/UCLan.jpg" alt="University of Central Lancashire-University">
+                  </a>
                 </div>
-                <div class="carousel-item">
+                <div class="slide">
                   <a href="https://www.herts.ac.uk/">
                     <img class="img-fluid d-block mx-auto" src="img/logos/university/university-of-hertfordshire.jpg" alt="university-of-hertfordshire">
                   </a>
                 </div>
-                <div class="carousel-item">
-                 <a href="https://www.napier.ac.uk/"> <img class="img-fluid d-block mx-auto" src="img/logos/university/edinburgh-napier.png" alt="Edinburgh Napier University"></a>
-                </div>
-                <div class="carousel-item">
-                  <img class="img-fluid d-block mx-auto" src="img/logos/university/sheffield-hallam-university.jpg" alt="sheffield-hallam-university">
-                </div>
-                <div class="carousel-item">
-                  <a href="http://www.mdx.ac.uk/">
-                    <img class="img-fluid d-block mx-auto" src="img/logos/university/middlesex-university.jpeg" alt="Middlesex University">
-                  </a>
-                </div>
-              </div>
-              <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-              </a>
-              <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
-              </a>
-            </div>
-          </div>
-          <div class="col-md-3 col-sm-6">
-            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-              <div class="carousel-inner" role="listbox">
-                <div class="carousel-item active">
-                  <a href="https://www.herts.ac.uk/">
-                  <img class="img-fluid d-block mx-auto" src="img/logos/university/university-of-hertfordshire.jpg" alt="university-of-hertfordshire">
-                  </a>
-                </div>              
-                <div class="carousel-item">
-                  <a href="http://www.uclan.ac.uk/">   <img class="img-fluid d-block mx-auto" src="img/logos/university/UCLan.jpg" alt="University of Central Lancashire-University"></a>
-                </div>
-                <div class="carousel-item">
-                  <a href="http://www.mdx.ac.uk/">
-                    <img class="img-fluid d-block mx-auto" src="img/logos/university/middlesex-university.jpeg" alt="Middlesex University">
-                  </a>
-                </div>
-                <div class="carousel-item">
-                 <a href="https://www.napier.ac.uk/"> <img class="img-fluid d-block mx-auto" src="img/logos/university/edinburgh-napier.png" alt="Edinburgh Napier University"></a>
-                </div>
-              </div>
-              <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-              </a>
-              <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
-              </a>
-            </div>
-          </div>
-          <div class="col-md-3 col-sm-6">
-            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-              <div class="carousel-inner" role="listbox">
-                <div class="carousel-item active">
+                <div class="slide">
                   <a href="https://www.napier.ac.uk/">
                     <img class="img-fluid d-block mx-auto" src="img/logos/university/edinburgh-napier.png" alt="Edinburgh Napier University">
                   </a>
                 </div>
-                <div class="carousel-item">
-               <a href="http://www.uclan.ac.uk/">   <img class="img-fluid d-block mx-auto" src="img/logos/university/UCLan.jpg" alt="University of Central Lancashire-University"></a>
-                </div>
-                <div class="carousel-item">
-                  <a href="https://www.herts.ac.uk/">
-                    <img class="img-fluid d-block mx-auto" src="img/logos/university/university-of-hertfordshire.jpg" alt="university-of-hertfordshire">
+                <div class="slide">
+                  <a href="https://www.shu.ac.uk/">
+                    <img class="img-fluid d-block mx-auto" src="img/logos/university/sheffield-hallam-university.jpg" alt="sheffield-hallam-university">
                   </a>
-                </div>                
-              </div>
-              <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-              </a>
-              <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
-              </a>
-            </div>
-          </div>
-          <div class="col-md-3 col-sm-6">
-            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-              <div class="carousel-inner" role="listbox">
-                <div class="carousel-item active">
-                  <img class="img-fluid d-block mx-auto" src="img/logos/university/sheffield-hallam-university.jpg" alt="sheffield-hallam-university">
                 </div>
-                <!-- <div class="carousel-item">
-                  <img class="img-fluid d-block mx-auto" src="img/logos/university/California-State-University-East-Bay.jpg" alt="California-State-University-East-Bay">
-                </div> -->
-                <div class="carousel-item">
+                <div class="slide">
                   <a href="http://www.mdx.ac.uk/">
                     <img class="img-fluid d-block mx-auto" src="img/logos/university/middlesex-university.jpeg" alt="Middlesex University">
                   </a>
                 </div>
-                <div class="carousel-item">
-                  <img class="img-fluid d-block mx-auto" src="img/logos/university/university-of-hertfordshire.jpg" alt="university-of-hertfordshire">
+                <div class="slide">
+                  <a href="https://www.salford.ac.uk/">
+                    <img class="img-fluid d-block mx-auto" src="img/logos/university/university-of-salford.jpg" alt="University of Salford">
+                  </a>
                 </div>
-                <div class="carousel-item">
-                  <a href="http://www.uclan.ac.uk/"> <img class="img-fluid d-block mx-auto" src="img/logos/university/UCLan.jpg" alt="University of Central Lancashire-University"></a>
+                <div class="slide">
+                  <a href="http://www.dmu.ac.uk/">
+                    <img class="img-fluid d-block mx-auto" src="img/logos/university/demontford-university.jpg" alt="De MontFord University">
+                  </a>
+                </div>
+              </section>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Testimonials-->
+    <section id="testimonials">
+      <div class="container  gallery-container">
+        <div class="row">
+          <div class="col-md-6">
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+              <!-- Carousel indicators -->
+              <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+              </ol>
+              <!-- Wrapper for carousel items -->
+              <div class="carousel-inner">
+                <div class="item carousel-item active">
+                  <div class="img-box">
+                    <img src="img/testimonial/rajesh-gowd-bomagouni.png" alt="">
+                  </div>
+                  <p class="testimonial">It is very reassuring to know that you have a team of education experts on hand to answer my queries whenever and whatever may arise. I look forward to your continued support, as my three siblings reach landmarks in their education.</p>
+                  <p class="overview">
+                    <b>Rajesh Gowd Bomagouni</b>Post Graduate at
+                    <a href="#">University of Central Lancashire.</a>
+                  </p>
+                  <div class="star-rating">
+                    <ul class="list-inline">
+                      <li class="list-inline-item">
+                        <i class="fa fa-star"></i>
+                      </li>
+                      <li class="list-inline-item">
+                        <i class="fa fa-star"></i>
+                      </li>
+                      <li class="list-inline-item">
+                        <i class="fa fa-star"></i>
+                      </li>
+                      <li class="list-inline-item">
+                        <i class="fa fa-star"></i>
+                      </li>
+                      <li class="list-inline-item">
+                        <i class="fa fa-star"></i>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="item carousel-item">
+                  <div class="img-box">
+                    <img src="img/testimonial/teja-katuri.jpg" alt="">
+                  </div>
+                  <p class="testimonial">I am very thankful for your great efforts made to my child. I am grateful for helping to find the apt university with most satisfying scholarship.</p>
+                  <p class="overview">
+                    <b>Teja Katuri</b>Post Graduate at
+                    <a href="#">University Of Salford.</a>
+                  </p>
+                  <div class="star-rating">
+                    <ul class="list-inline">
+                      <li class="list-inline-item">
+                        <i class="fa fa-star"></i>
+                      </li>
+                      <li class="list-inline-item">
+                        <i class="fa fa-star"></i>
+                      </li>
+                      <li class="list-inline-item">
+                        <i class="fa fa-star"></i>
+                      </li>
+                      <li class="list-inline-item">
+                        <i class="fa fa-star"></i>
+                      </li>
+                      <li class="list-inline-item">
+                        <i class="fa fa-star-o"></i>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="item carousel-item">
+                  <div class="img-box">
+                    <img src="./img/testimonial/surender-katkam.png" alt="">
+                  </div>
+                  <p class="testimonial">Your knowledge of international schools and professional manner were excellent..</p>
+                  <p class="overview">
+                    <b>Surender Katkam</b>Post Graduate at
+                    <a href="#">University of Central Lancashire.</a>
+                  </p>
+                  <div class="star-rating">
+                    <ul class="list-inline">
+                      <li class="list-inline-item">
+                        <i class="fa fa-star"></i>
+                      </li>
+                      <li class="list-inline-item">
+                        <i class="fa fa-star"></i>
+                      </li>
+                      <li class="list-inline-item">
+                        <i class="fa fa-star"></i>
+                      </li>
+                      <li class="list-inline-item">
+                        <i class="fa fa-star"></i>
+                      </li>
+                      <li class="list-inline-item">
+                        <i class="fa fa-star-o"></i>
+                      </li>
+                    </ul>
+                  </div>
                 </div>
               </div>
-              <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
+              <!-- Carousel controls -->
+              <a class="carousel-control left carousel-control-prev" href="#myCarousel" data-slide="prev">
+                <i class="fa fa-angle-left"></i>
               </a>
-              <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
+              <a class="carousel-control right carousel-control-next" href="#myCarousel" data-slide="next">
+                <i class="fa fa-angle-right"></i>
               </a>
             </div>
           </div>
+          <div class="col-md-6">
+            <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img class="d-block w-100" src="./img/banner/Demontfort-scholarships.jpg" alt="First slide">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="./img/banner/uclan-scholarship.jpg" alt="Second slide">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="./img/banner/salford-scholarships.jpg" alt="Third slide">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="./img/banner/edinburgh-napier-msc-computing.jpg" alt="Fourth slide">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="./img/banner/UH-courselist.jpg" alt="Fifth slide">
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- <div class="col-lg-12">
+            <div class="tz-gallery">
+              <div class="row">
+                <div class="col-sm-6 col-md-4">
+                  <div class="thumbnail">
+                    <a class="lightbox" href="./img/testimonial/surender-katkam.png">
+                      <img src="./img/logos/university/demontford-university.jpg" alt="Park">
+                    </a>
+                    <div class="caption">
+                      <h3>Thumbnail label</h3>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                        aliqua.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                  <div class="thumbnail">
+                    <a class="lightbox" href="./img/logos/university/demontford-university.jpg">
+                      <img src="./img/logos/university/demontford-university.jpg" alt="Park">
+                    </a>
+                    <div class="caption">
+                      <h3>Thumbnail label</h3>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                        aliqua.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                  <div class="thumbnail">
+                    <a class="lightbox" href="./img/testimonial/surender-katkam.png">
+                      <img src="./img/logos/university/demontford-university.jpg" alt="Park">
+                    </a>
+                    <div class="caption">
+                      <h3>Thumbnail label</h3>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                        aliqua.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div> -->
         </div>
       </div>
     </section>
@@ -564,7 +721,7 @@
 
 
    <!-- Locate Us -->
-    <section class="bg-light" id="find-us" style="padding-top:10px;padding-bottom:10px;">
+    <section id="find-us" style="padding-top:10px;padding-bottom:10px;">
       <div class="container">
        <div class="row">
          <!-- <div class="col-lg-12 text-center"> -->
@@ -578,7 +735,7 @@
       </div>
     </section>
    <!-- Contact -->
-    <section id="contact">
+    <section class="bg-light" id="contact">
       <div class="container">
         <div class="row">
           <div class="col-lg-12 text-center">
@@ -1669,6 +1826,7 @@ from 10:30 am to 6:00 pm and Saturday from 10.00 am to 12:30 pm.</h3>
 
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
     <!-- Plugin JavaScript -->
@@ -1680,19 +1838,119 @@ from 10:30 am to 6:00 pm and Saturday from 10.00 am to 12:30 pm.</h3>
 
     <!-- Custom scripts for this template -->
     <script src="js/agency.min.js"></script>
-    <script type="text/javascript">
-     $('.carousel').carousel({
-        interval: 2000
-      })
-    </script>
     <style type="text/css">
       .map-responsive{
         overflow:hidden;
         padding-bottom:-50%;
         position:relative;
       }
+
+      .carousel .item {
+        color: #999;
+        font-size: 14px;
+          text-align: center;
+        overflow: hidden;
+          min-height: 340px;
+      }
+      .carousel .item a {
+        color: #eb7245;
+      }
+      .carousel .img-box {
+        width: 145px;
+        height: 145px;
+        margin: 0 auto;
+        border-radius: 50%;
+      }
+      .carousel .img-box img {
+        width: 100%;
+        height: 100%;
+        display: block;
+        border-radius: 50%;
+      }
+      .carousel .testimonial {	
+        padding: 30px 0 10px;
+      }
+      .carousel .overview {	
+        text-align: center;
+        padding-bottom: 5px;
+      }
+      .carousel .overview b {
+        color: #333;
+        font-size: 15px;
+        text-transform: uppercase;
+        display: block;	
+        padding-bottom: 5px;
+      }
+      .carousel .star-rating i {
+        font-size: 18px;
+        color: #ffdc12;
+      }
+      .carousel .carousel-control {
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+          background: #999;
+          text-shadow: none;
+        top: 4px;
+      }
+      .carousel-control i {
+        font-size: 20px;
+        margin-right: 2px;
+      }
+      .carousel-control.left {
+        left: auto;
+        right: 40px;
+      }
+      .carousel-control.right i {
+        margin-right: -2px;
+      }
+      .carousel .carousel-indicators {
+        bottom: 15px;
+      }
+      .carousel-indicators li, .carousel-indicators li.active {
+        width: 11px;
+        height: 11px;
+        margin: 1px 5px;
+        border-radius: 50%;
+      }
+      .carousel-indicators li {	
+        background: #e2e2e2;
+        border-color: transparent;
+      }
+      .carousel-indicators li.active {
+        border: none;
+        background: #888;		
+      }      
     </style>
 
-  </body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
+    <script>
+      baguetteBox.run('.tz-gallery');
+    </script>
 
+    <script type="text/javascript">
+    $(document).ready(function () {
+        $('.customer-logos').slick({
+          slidesToShow: 6,
+          slidesToScroll: 1,
+          autoplay: true,
+          autoplaySpeed: 1000,
+          arrows: false,
+          dots: false,
+          pauseOnHover: false,
+          responsive: [{
+            breakpoint: 768,
+            settings: {
+              slidesToShow: 4
+            }
+          }, {
+            breakpoint: 520,
+            settings: {
+              slidesToShow: 3
+            }
+          }]
+        });
+      });
+    </script>
+  </body>
 </html>
